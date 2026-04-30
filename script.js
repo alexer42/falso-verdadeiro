@@ -1,21 +1,3 @@
-//booleano
-
-const usuarioLogado = true;
-const contaPaga = false;
-
-//falso e verdadeiro
-
-console.log(0 == false)
-console.log("" == false)
-console.log(1 == true)
-
-//undefined
-
-let minhaVar;
-let varnull = null;
-
-let numero = 3;
-let texto = "alura";
-
-console.log(typeof minhaVar)
-console.log(typeof varnull)
+let Nan = "e" == 5;
+console.log("Não é um número", Nan)
+console.log("Tipo é", typeof Nan)
